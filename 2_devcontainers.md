@@ -1,11 +1,14 @@
-# Trying to get docker working in codespace like local BYOD
-
-<- for now all in .devcontainer directory
-
-[https://github.com/devcontainers/features/tree/main/src/docker-in-docker](https://github.com/devcontainers/features/tree/main/src/docker-in-docker)
+# Docker works by default 
 
 
-## Need to fix
+# Tailscale 
 
-* User dont have access to docker / usermod -aG docker vscode  is not working :S
+(https://github.com/tailscale/codespace)[https://github.com/tailscale/codespace]
+    
+    "runArgs": ["--device=/dev/net/tun"],
+    "features": {
+      "ghcr.io/tailscale/codespace/tailscale": {
+        "version": "latest"
+      }
+    }
 
