@@ -11,7 +11,10 @@
             ]
         }
     },
-    "runArgs": ["--device=/dev/net/tun"],
+      "runArgs": [
+        "--device=/dev/net/tun",
+        "--privileged"
+                ],
     "features": {
       "docker-in-docker": "latest",
       "ghcr.io/tailscale/codespace/tailscale": {
