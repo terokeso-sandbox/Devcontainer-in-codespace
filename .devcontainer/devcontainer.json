@@ -3,11 +3,18 @@
     "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
 
     "remoteUser": "vscode",
-    "features": {
-      "docker-in-docker": "latest"
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "ms-vscode-remote.remote-containers"
+            ]
+        }
     },
-    "mounts": [
-      "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
-    ],
+    "runArgs": ["--device=/dev/net/tun"],
+    "features": {
+      "ghcr.io/tailscale/codespace/tailscale": {
+      "version": "latest"
   }
-  
+  }
+}
