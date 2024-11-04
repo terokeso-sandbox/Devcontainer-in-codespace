@@ -13,8 +13,13 @@
     },
     "runArgs": ["--device=/dev/net/tun"],
     "features": {
+      "docker-in-docker": "latest",
       "ghcr.io/tailscale/codespace/tailscale": {
       "version": "latest"
   }
-  }
-}
+  },
+  "mounts": [
+        "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
+      ]
+
+    }
