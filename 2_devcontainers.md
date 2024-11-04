@@ -1,7 +1,7 @@
 # Docker works by default 
 
 
-# Tailscale 
+# Tailscale 1/2
 
 (https://github.com/tailscale/codespace)[https://github.com/tailscale/codespace]
     
@@ -12,3 +12,13 @@
       }
     }
 
+
+# Tailscale key 2/2
+
+Working on it 
+
+
+
+# Docker non root 
+
+https://code.visualstudio.com/remote/advancedcontainers/add-nonroot-user
