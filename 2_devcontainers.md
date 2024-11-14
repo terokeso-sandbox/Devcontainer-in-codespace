@@ -2,6 +2,11 @@
 
 Goal is to get a working devcontainer with semi persistent dns name and settings. Also integrate Tailscale for easy access to the devcontainer. If it is possible to get all working with Vscode web version.
 
+## Connect to from local Vscode to Codespace
+
+![VscodeToCodespace](images/VscodeToCodespace.png)
+
+
 ## Tailscale manual user auth 1/2
 
 Just add 
