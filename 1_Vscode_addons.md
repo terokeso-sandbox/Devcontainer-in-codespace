@@ -4,8 +4,7 @@
 ### Byod addons / Done
 * https://hamk-business-information-technology.github.io/os/#step-3-installing-some-useful-vscode-addons
 
-### Byod addons 
-* Name / ID / URL
+### Byod addons Name / ID / URL
 * GitHub Markdown Preview / bierner.github-markdown-preview / 
 * Markdown Preview Github Styling / bierner.markdown-preview-github-styles / 
 * indent-rainbow / 	oderwat.indent-rainbow	/ https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow 
@@ -16,7 +15,7 @@ You can also review and edit the settings.json file directly by opening it in th
     "search.followSymlinks": false,
 
 
-### Settings to Github Repo for forcing to be more usable
+### Settings to Github Repo for forcing to be more usable for students. Force to open in preview mode.
 
 --> .vscode --> settings.json 
 
