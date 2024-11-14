@@ -1,8 +1,8 @@
-# Docker works by default if you add a docker file to the root of the project.
-- Still not getting docker management to work.
+# Devcontainers Goals
 
+Goal is to get a working devcontainer with semi persistent dns name and settings. Also integrate Tailscale for easy access to the devcontainer. If it is possible to get all working with Vscode web version.
 
-# Tailscale manual user auth 1/2
+## Tailscale manual user auth 1/2
 
 Just add 
 
@@ -17,15 +17,18 @@ Just add
 
 and the run 'sudo tailscale up' in the terminal. It will ask you to authenticate and you are good to go.
 
-# Tailscale key automatic auth 2/2
+## Tailscale key automatic auth 2/2
 
 .devcontainer has build in auth key place and you need to add auth key to github secrets.
 
 
 ![Codespaces secrets](/images/Codespaces_secrets.png)
 
-# Docker non root / Vscode docker management broken
+## Docker non root / Vscode docker management broken
 
 https://code.visualstudio.com/remote/advancedcontainers/add-nonroot-user
 
 ![Docker is still broken](/images/Docker-broken.png)
+
+## Docker works by default if you add a docker file to the root of the project.
+- Still not getting docker management to work.
