@@ -105,7 +105,8 @@ extra_css:
 extra_javascript:
   - js/custom.js
   
-# plugins:
+plugins:
+  - gh-admonitions
 #  - offline:
 #      enabled: !ENV [OFFLINE, false] # if true, the rendered url will differ with .html ending
 #  - info # this is to report bug to mkdocs-material only

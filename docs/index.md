@@ -8,7 +8,11 @@ The following guidelines utilizes the **chocolatey package manager** for **Windo
 The provided instructions use the **Chocolatey package manager** on **Windows** to install various applications needed for different modules at HAMK. It's important to install these tools on the device you'll use for studying, as they'll be essential throughout your studies. 
 
 ???+ note
-    Remember, if you switch to a new device, just follow these instructions to ensure you have the necessary tools:
+    This is a "???+ note"
+
+
+> [!NOTE]
+> This we need to get working "> [!NOTE]"
 
 ## Step 1: Install CHOCOLATEY
 
