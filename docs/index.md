@@ -11,19 +11,20 @@ The provided instructions use the **Chocolatey package manager** on **Windows** 
 
 Chocolatey is a popular package manager for Windows that simplifies the process of installing, updating, and managing software applications. It allows users to automate the installation of a wide range of software with a single command, making it efficient and convenient. Chocolatey provides access to a vast repository of pre-packaged software packages, which can be easily installed, updated, or removed using command-line instructions. This tool streamlines software management on Windows systems, enhancing productivity and reducing the manual effort required for software maintenance.
 
-> [!warning]
-    * Windows 7 or newer version of Windows Operating System (Recommended Windows 10 or 11)
-    * PowerShell v2+
-    * .NET Framework 4+ 
 
-> [!Important]  
-    "Installation Process"
-    Start Powershell with Administrator rights (Run as Administrator)
-    If you already have choco installed in your device, run the following > command in your powershell 
+
+> [!TIP]
+> This is the Github admonition syntax.
+
+> [!Tip]  
+> **System Requirements** <br>
+>    * Windows 7 or newer version of Windows Operating System (Recommended Windows 10 or 11) 
+> <br> * PowerShell v2+ 
+> <br> * NET Framework 4+ 
 
 > [!Caution]
-  "This will remove chocolatey from your computer! For re-installing only!"
-
+>  "This will remove chocolatey from your computer! For re-installing only!"
+>
 ```powershell 
     rm -Path "C:\ProgramData\chocolatey" -Recurse -Force
     rm -Path "C:\ProgramData\ChocolateyHttpCache" -Recurse -Force
