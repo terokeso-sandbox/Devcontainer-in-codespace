@@ -1,7 +1,7 @@
 site_name: Devcontainer in codespace with Mkdocs Material
 repo_url: https://terokeso.github.io/Devcontainer-in-codespace/
 edit_uri: edit/main/docs/ # to let content.action.edit / view redirect to `main`, not `master`
-repo_name: TeroKeso/Devcontainer-in-codespace
+repo_name: teroKeso/devcontainer-in-codespace
 theme:
   name: material
   logo: assets/favicon/logo_light_pink.png
