@@ -23,11 +23,15 @@
     "features": {
       "docker-in-docker": "latest",
       "ghcr.io/tailscale/codespace/tailscale": {
-      "version": "latest"
-  }
+                "version": "latest"
+        },
+      "python": {
+                "version": "3.9" // Adjust this to your preferred Python version
+        }
   },
   "mounts": [
         "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
       ],
+        "postCreateCommand": "pip install --upgrade pip && pip install mkdocs mkdocs-github-admonitions-plugin mkdocs-material",
         "postStartCommand": "nohup bash -c 'sudo chgrp docker /var/run/docker.sock && tailscale up --auth-key=${{ secrets.TAILSCALE_API }} &'"
 }
