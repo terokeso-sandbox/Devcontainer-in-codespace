@@ -15,11 +15,12 @@ title: Windows 11 - Education Licence and Hyper-V
 ```powershell
 wmic path SoftwareLicensingService get OA3xOriginalProductKey
 ```
-???+ info
-    * Save it in a safe place 😊
 
-???+ Note
-    Microsoft is slowly moving to a digital licenses that are tied to your laptop’s hardware or Microsoft account. In this situation you WILL NOT get a license key because activation will be done without it.` [Read more from here](https://support.microsoft.com/en-us/windows/activate-windows-c39005d4-95ee-b91e-b399-2820fda32227)
+> [!TIP]
+> Save it in a safe place 😊
+
+> [!TIP]
+> Microsoft is slowly moving to a digital licenses that are tied to your laptop’s hardware or Microsoft account. In this situation you WILL NOT get a license key because activation will be done without it. [Read more from here](https://support.microsoft.com/en-us/windows/activate-windows-c39005d4-95ee-b91e-b399-2820fda32227)
 
 ## Step 2: Getting a new Windows 11 Education license
 
@@ -53,8 +54,8 @@ Please follow these steps to activate a new product key in Windows:
 
 ![activation](assets/images/windows11_activation.png "View Key on Windows 11 Educational version")
 
-???+ Note
-    Sometimes, updating your Windows license might lead to unexpected errors. Don't be surprised – it's just Microsoft's unique way of saying **"Job well done!"** 
+> [!TIP]
+> Sometimes, updating your Windows license might lead to unexpected errors. Don't be surprised – it's just Microsoft's unique way of saying **"Job well done!"** 
 
 ***Windows license / Activation settings does not agree to change?***
 
